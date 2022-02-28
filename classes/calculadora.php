@@ -20,6 +20,35 @@
         public function setNumero2($param_num2){
             $this->numero2 = $param_num2;
     }
+        public function somar(){
+            $this->total = $this->numero1 + $this->numero2;
+
+            return $this->total;
+        }
+
+        public function subtrair(){
+            $this->total = $this->numero1 - $this->numero2;
+
+            return $this->total;
+        }
+
+        public function multiplicar(){
+            $this->total = $this->numero1 * $this->numero2;
+
+            return $this->total;
+        }
+
+        public function dividir(){
+            $this->total = $this->numero1 / $this->numero2;
+
+            return $this->total;
+        }
+
+        public function getTotal(){
+            
+            return $this->total;
+        }
+
     }
 
 ?>

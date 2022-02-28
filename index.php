@@ -26,11 +26,13 @@
         <input type="radio" name="operacao" id="subtrair" value="subtrair">    
     Subtrair</label>
     <label for="mutiplicar">
-        <input type="radio" name="operacao" id="mutiplicar" value="mutiplicar">    
+        <input type="radio" name="operacao" id="mutiplicar" value="multiplicar">    
     Multiplicar</label>
     <label for="dividir">
         <input type="radio" name="operacao" id="dividir" value="dividir">    
     Dividir</label>
+    <br>
+    <input type="submit" value="Calcular">
     
 
 </form>
