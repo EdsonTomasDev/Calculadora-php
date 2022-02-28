@@ -10,7 +10,7 @@
 
 <form method="post" action="calcular.php">
     <label for="numero1">Primeiro Número:
-        <input type="text" name="numero1" id="numero1">
+        <input type="text" name="numero1" id="numero1" placeholder="somente números">
     </label>
     <br>
     
