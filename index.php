@@ -16,6 +16,21 @@
     <label for="numero2">Segundo Número:
         <input type="text" name="numero2" id="numero2">
     </label>
+    <br>
+    Operação:
+    <br>
+    <label for="somar">
+        <input type="radio" name="operacao" id="somar" value="somar">    
+    Somar</label>
+    <label for="subtrair">
+        <input type="radio" name="operacao" id="subtrair" value="subtrair">    
+    Subtrair</label>
+    <label for="mutiplicar">
+        <input type="radio" name="operacao" id="mutiplicar" value="mutiplicar">    
+    Multiplicar</label>
+    <label for="dividir">
+        <input type="radio" name="operacao" id="dividir" value="dividir">    
+    Dividir</label>
     
 
 </form>
