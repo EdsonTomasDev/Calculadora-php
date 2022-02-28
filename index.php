@@ -12,6 +12,7 @@
     <label for="numero1">Primeiro Número:
         <input type="text" name="numero1" id="numero1">
     </label>
+    <br>
     
     <label for="numero2">Segundo Número:
         <input type="text" name="numero2" id="numero2">
