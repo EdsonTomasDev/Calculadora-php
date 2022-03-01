@@ -27,6 +27,8 @@ switch ($operacao){
 
 }
     
-echo $calculadora->getTotal();
+
 
 ?>
+
+<h1 style="font-size: 35px"><?php echo $calculadora->getTotal(); ?></h1>

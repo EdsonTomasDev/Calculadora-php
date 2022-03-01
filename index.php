@@ -10,12 +10,12 @@
 
 <form method="post" action="calcular.php">
     <label for="numero1">Primeiro Número:
-        <input type="text" name="numero1" id="numero1" placeholder="somente números">
+        <input type="text" name="numero1" id="numero1" placeholder="Somente números">
     </label>
     <br>
     
     <label for="numero2">Segundo Número:
-        <input type="text" name="numero2" id="numero2">
+        <input type="text" name="numero2" id="numero2" placeholder="Somente números">
     </label>
     <br>
     Operação:
